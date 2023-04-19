@@ -1,0 +1,55 @@
+
+button,
+[type=button],
+[type=reset],
+[type=submit] {
+    appearance: none !important;
+    -moz-appearance: none !important;
+    -webkit-appearance: none !important;
+}
+
+.btn{
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 500;
+    padding:18px 25px;
+    border-radius: 20px;
+    &:hover{
+        background-color: $info;
+    }
+}
+.btn-without-bg{
+    background-color: transparent;
+    color:$secondary;
+    text-decoration: underline;
+    text-underline-offset: 4px;
+    font-weight: 500;
+    &:hover{
+      text-decoration: underline;
+    }
+}
+
+.btn-md{
+    padding:18px 39px;
+}
+.btn-lg{
+    padding:18px 67px;
+}
+.round-button{
+    height:38px;
+    width:38px;
+    border:1px solid #2A2F33;
+    border-radius: 50%;
+
+    @include media-breakpoint-down(lg){
+        height:18px;
+        width:18px;
+    }
+}
+a{
+    &.author-name{
+        border-radius: 14px;
+        border: 1px solid $secondary;
+        line-height: 1.1;
+    }
+}

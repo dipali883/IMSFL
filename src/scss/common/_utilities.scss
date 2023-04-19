@@ -1,0 +1,124 @@
+
+.small-label{
+    font-size: $bodyXS;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
+
+.text-xs{
+    font-size: $bodyXS;
+}
+.text-sm{
+    font-size: $bodyS;
+}
+.text-base{
+    font-size: $bodyM;
+}
+.text-lg{
+    font-size: $bodyL;
+}
+
+.text-title{
+    font-size: 100px;
+    line-height: 97px;
+    @include media-breakpoint-up(lg) {
+        font-size: 70px;
+    }
+}
+
+
+
+.font-normal{
+    font-weight: 400;
+}
+
+.font-medium{
+    font-weight: 500;
+}
+.font-semibold{
+    font-weight: 600;
+}
+
+.font-bold{
+    font-weight: 700;
+}
+
+.text-gray {
+    color: $primary;
+    opacity: 0.5;
+}
+
+.text-primary{
+    color:$primary;
+}
+.tracking-wide{
+    letter-spacing: 0.1em;
+}
+.bg-gray {
+    background-color: $warning;
+}
+
+.bg-light-gray {
+    background-color: #F4F4F4;
+}
+
+.border-top{
+    border-top: 1px solid #18242A !important;
+}
+.border-bottom{
+    border-bottom: 1px solid #18242A !important;
+}
+
+.bg-green{
+    background-color: $green;
+}
+.text-green{
+    color: $green;
+}
+
+
+.transition{
+    transition: 0.4s all ease-in-out;
+}
+
+.bg-primary-hover{
+    background-color: $primary;
+
+    &:hover{
+        background-color: $secondary;
+    }
+}
+
+.z-index{
+    z-index: 9;
+}
+.leading-relax{
+    line-height: 2;
+}
+.cursor-pointer{
+    cursor: pointer;
+}
+.theme-content{
+    font-size:15px;
+    line-height: 28px;
+}
+.theme-content-2{
+    font-size: 18px;
+    line-height: 32px;
+}
+
+.theme-content-3{
+    font-size:17px;
+    line-height: 22px;
+    color:rgba($primary,38%);
+    @include media-breakpoint-down(lg){
+        font-size:15px;
+    line-height: 28px;
+    }
+}
+.backgroung-linear{
+    background:linear-gradient($info, $secondary);
+}
+.backgroung-linear-warning{
+    background: linear-gradient(#EDC172, $secondary);
+}
