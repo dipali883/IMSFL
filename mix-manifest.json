@@ -26,6 +26,8 @@
     "/public/assets/images/insights/insights2.png": "/public/assets/images/insights/insights2.png",
     "/public/assets/images/insights/insights3.png": "/public/assets/images/insights/insights3.png",
     "/public/assets/images/insights/instagram.svg": "/public/assets/images/insights/instagram.svg",
+    "/public/assets/images/insights/laptop.png": "/public/assets/images/insights/laptop.png",
+    "/public/assets/images/insights/laptop.svg": "/public/assets/images/insights/laptop.svg",
     "/public/assets/images/insights/mission-shopping.png": "/public/assets/images/insights/mission-shopping.png",
     "/public/assets/images/insights/motorcycle.png": "/public/assets/images/insights/motorcycle.png",
     "/public/assets/images/insights/motorhome-img.png": "/public/assets/images/insights/motorhome-img.png",
@@ -36,10 +38,13 @@
     "/public/assets/images/insights/ok.svg": "/public/assets/images/insights/ok.svg",
     "/public/assets/images/insights/pig.png": "/public/assets/images/insights/pig.png",
     "/public/assets/images/insights/play-video.svg": "/public/assets/images/insights/play-video.svg",
+    "/public/assets/images/insights/pre-round-small-btn.svg": "/public/assets/images/insights/pre-round-small-btn.svg",
     "/public/assets/images/insights/previous.svg": "/public/assets/images/insights/previous.svg",
+    "/public/assets/images/insights/round-black.svg": "/public/assets/images/insights/round-black.svg",
     "/public/assets/images/insights/saga.png": "/public/assets/images/insights/saga.png",
     "/public/assets/images/insights/search.svg": "/public/assets/images/insights/search.svg",
     "/public/assets/images/insights/shef-img.svg": "/public/assets/images/insights/shef-img.svg",
+    "/public/assets/images/insights/sorn-img.png": "/public/assets/images/insights/sorn-img.png",
     "/public/assets/images/insights/submitarrow.svg": "/public/assets/images/insights/submitarrow.svg",
     "/public/assets/images/insights/taxi.png": "/public/assets/images/insights/taxi.png",
     "/public/assets/images/insights/testimonial.png": "/public/assets/images/insights/testimonial.png",
@@ -66,7 +71,5 @@
     "/public/assets/fonts/DINCond-Black.eot": "/public/assets/fonts/DINCond-Black.eot",
     "/public/assets/fonts/DINCond-Black.ttf": "/public/assets/fonts/DINCond-Black.ttf",
     "/public/assets/fonts/DINCond-Black.woff": "/public/assets/fonts/DINCond-Black.woff",
-    "/public/assets/fonts/DINCond-Black.woff2": "/public/assets/fonts/DINCond-Black.woff2",
-    "/public/assets/images/insights/sorn-img.png": "/public/assets/images/insights/sorn-img.png",
-    "/public/assets/images/insights/pre-round-small-btn.svg": "/public/assets/images/insights/pre-round-small-btn.svg"
+    "/public/assets/fonts/DINCond-Black.woff2": "/public/assets/fonts/DINCond-Black.woff2"
 }

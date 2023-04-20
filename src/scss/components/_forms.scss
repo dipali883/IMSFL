@@ -1,0 +1,77 @@
+
+.form-select-box{
+    max-width: 372px;
+    @include media-breakpoint-down(lg){
+        max-width: 302px;
+    }
+}
+.select2-container{
+    position: relative;
+    @include media-breakpoint-down(lg){
+        margin-bottom: 20px;
+    }
+    .select2-selection{
+        background-color: rgba(255, 255, 255, 0.22);
+        color:white;
+        border: 1px solid #000;
+        border-radius: 20px;
+        padding:18px 18px;
+        min-height:54px;
+        &[aria-expanded='true']{
+            .select2-selection__arrow{
+                transform: rotate(-180deg);
+            }
+        }
+
+        .select2-selection__rendered{
+            display: block;
+            font-size: 16px;
+            color:$secondary;
+            line-height: 26px;
+            padding:0px;
+        }
+        .select2-selection__arrow{
+            
+            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='6' viewBox='0 0 10 6'%3E%3Cpath id='Polygon_14' data-name='Polygon 14' d='M5,0l5,6H0Z' transform='translate(10 6) rotate(180)' fill='%23fff'/%3E%3C/svg%3E");
+            background-repeat: no-repeat;
+            background-position: center;
+            position: absolute;
+            top: 25%;
+            right: 18px;
+            @include generate-transition(all ,0.5s,ease);
+
+        
+            b{
+                border-width: 0px;
+                border-color: #fff transparent transparent transparent;
+            }
+        }
+        .select2-selection--single{
+            padding:17px 17px;
+            font-size: 16px;
+            color:$primary;
+            line-height: 16px;
+            font-weight: 700;
+        }
+        
+    }
+    .select2-results__options {
+        .select2-results__option{
+             &.select2-results__option--selected{
+                background-color: $primary !important;
+                color:$secondary;
+                font-size: 16px;
+                line-height: 16px;
+                padding: 17px 17px;
+             }
+             &.select2-results__option--highlighted{
+                background-color: $primary !important;
+                color:$secondary;
+                font-size: 16px;
+                line-height: 16px;
+                font-weight: 700;
+                padding: 17px 17px;
+             }
+        }
+    }
+}

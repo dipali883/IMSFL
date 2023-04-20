@@ -1,6 +1,8 @@
 import $ from 'jquery';
 import '@popperjs/core';
 import 'bootstrap/dist/js/bootstrap';
+import 'select2/dist/js/select2.min.js';
+
 
 import {App} from './parts/app.js'
 import {Plugins} from './parts/plugins.js'
@@ -147,4 +149,13 @@ $(document).ready(function(){
             $(this).addClass('active');
         }
     });
+});
+
+
+
+// career read more
+$("[data-job='true']").click(function(){
+    $(this).toggleClass("show");
+    var filter = $(this).data("job-name");
+    $(filter).toggleClass("open");
 });
