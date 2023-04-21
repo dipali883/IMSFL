@@ -14379,6 +14379,11 @@ a.author-name {
   max-width: 196px;
   padding: 18px 69px;
 }
+@media (max-width: 991.98px) {
+  .btn-sm, .btn-group-sm > .btn {
+    max-width: 0px;
+  }
+}
 
 .form-select-box {
   max-width: 372px;
@@ -14764,6 +14769,116 @@ a.author-name {
 }
 
 /* END checkout modal */
+.enquiry-job-modal .modal-dialog {
+  max-width: 562px;
+}
+@media (max-width: 767.98px) {
+  .enquiry-job-modal .modal-dialog {
+    margin: 0px;
+  }
+}
+.enquiry-job-modal .modal-content {
+  height: auto;
+  background-color: #FEFAF4;
+  color: #18242A;
+  display: flex;
+  align-items: center;
+  border: none;
+  border-radius: 20px;
+}
+@media (max-width: 767.98px) {
+  .enquiry-job-modal .modal-content {
+    height: 100vh;
+    border-radius: 0px;
+  }
+}
+.enquiry-job-modal .modal-content .button {
+  display: none;
+}
+.enquiry-job-modal .modal-content .btn-close {
+  height: 38px;
+  width: 38px;
+  border-radius: 50%;
+  border: 1px solid #FEFAF4;
+  z-index: 9;
+  position: absolute;
+  right: 12px;
+  top: 12px;
+  cursor: pointer;
+}
+@media (max-width: 767.98px) {
+  .enquiry-job-modal .modal-content .btn-close {
+    position: absolute;
+    top: 5%;
+    left: 84%;
+  }
+}
+.enquiry-job-modal .modal-content .btn-close {
+  opacity: 1;
+}
+.enquiry-job-modal .modal-content .menu-close {
+  height: 58px;
+  width: 58px;
+}
+.enquiry-job-modal .modal-header {
+  display: block;
+  border: none;
+  padding: 60px 0px 28px 0px;
+}
+@media (max-width: 767.98px) {
+  .enquiry-job-modal .modal-header {
+    padding: 130px 90px 28px 90px;
+  }
+}
+.enquiry-job-modal .modal-header .modal-title h2, .enquiry-job-modal .modal-header .modal-title .h2 {
+  font-size: 20px;
+  line-height: 1;
+}
+.enquiry-job-modal .modal-header .modal-title h2 span, .enquiry-job-modal .modal-header .modal-title .h2 span {
+  font-size: 40px;
+  line-height: 1.1;
+}
+.enquiry-job-modal .modal-footer {
+  padding: 12px 0px 45px 0px;
+  border-top: none;
+}
+.enquiry-job-modal .modal-footer a.btn {
+  padding: 18px 47px;
+}
+.enquiry-job-modal .form-details {
+  max-width: 444px;
+}
+@media (max-width: 767.98px) {
+  .enquiry-job-modal .form-details {
+    max-width: 302px;
+  }
+}
+.enquiry-job-modal .form-details .modal-body {
+  padding: 0px 0px 0px 0px;
+}
+.enquiry-job-modal .form-details .modal-body .custom-label {
+  border: 1px dashed rgba(24, 36, 42, 0.5);
+  display: inline-block;
+  padding: 15px 20px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 12px;
+  line-height: 16px;
+}
+.enquiry-job-modal .form-details .modal-body .form-control {
+  border: 1px solid #080808;
+  padding: 15px 20px;
+  border-radius: 20px;
+  font-size: 15px;
+  line-height: 16px;
+}
+.enquiry-job-modal .form-details .modal-body .form-control::-moz-placeholder {
+  color: #18242A;
+}
+.enquiry-job-modal .form-details .modal-body .form-control::placeholder {
+  color: #18242A;
+}
+
 .slick-slider:not(.slick-initialized) .slick-track {
   display: flex;
 }
@@ -18788,6 +18903,11 @@ footer .bottom-footer ul li > a:hover::before {
   padding: 115px 0px 178px 0px;
   background-image: linear-gradient(#FEFAF4, #B990F6);
 }
+@media (max-width: 991.98px) {
+  .work-with-us-section {
+    padding: 119px 0px 117px 0px;
+  }
+}
 .work-with-us-section .product-title h1, .work-with-us-section .product-title .h1 {
   font-size: 60px;
   line-height: 1;
@@ -18812,6 +18932,19 @@ footer .bottom-footer ul li > a:hover::before {
   background-color: rgba(253, 250, 246, 0.92);
   padding: 98px 64px 90px 73px;
   margin-bottom: 27px;
+}
+@media (max-width: 991.98px) {
+  .work-with-us-section .product-main-div {
+    padding: 52px 20px 31px 22px;
+  }
+}
+.work-with-us-section .product-main-div h3, .work-with-us-section .product-main-div .h3 {
+  font-size: 35px;
+  line-height: 1;
+}
+.work-with-us-section .product-main-div h4, .work-with-us-section .product-main-div .h4 {
+  font-size: 25px;
+  line-height: 1;
 }
 .work-with-us-section .product-main-div .product-content p {
   font-size: 17px;
@@ -18843,4 +18976,131 @@ footer .bottom-footer ul li > a:hover::before {
 }
 .work-with-us-section [data-job=true] span:last-child {
   display: none;
+}
+
+.we-have-section {
+  padding: 143px 0px;
+}
+@media (max-width: 991.98px) {
+  .we-have-section {
+    padding: 102px 0px 114px 0px;
+  }
+}
+.we-have-section .want-to-learn-content h2, .we-have-section .want-to-learn-content .h2 {
+  line-height: 1.2;
+}
+@media (max-width: 991.98px) {
+  .we-have-section .want-to-learn-content h2, .we-have-section .want-to-learn-content .h2 {
+    line-height: 1.2;
+  }
+}
+.we-have-section .why-choose-body .product-img {
+  margin: 0 auto;
+}
+.we-have-section .why-choose-footer h3, .we-have-section .why-choose-footer .h3 {
+  font-size: 35px;
+  line-height: 35px;
+}
+@media (max-width: 991.98px) {
+  .we-have-section .why-choose-footer h3, .we-have-section .why-choose-footer .h3 {
+    font-size: 25px;
+    line-height: 34px;
+  }
+}
+.we-have-section a.btn {
+  padding: 18px 50px;
+}
+.we-have-section .row :-webkit-scrollbar {
+  display: none;
+}
+
+.download-section {
+  padding: 115px 0px 178px 0px;
+  background-image: linear-gradient(#FEFAF4, #F5BF64);
+}
+@media (max-width: 991.98px) {
+  .download-section {
+    padding: 119px 0px 117px 0px;
+  }
+}
+.download-section .product-title h1, .download-section .product-title .h1 {
+  font-size: 60px;
+  line-height: 1;
+}
+@media (max-width: 991.98px) {
+  .download-section .product-title h1, .download-section .product-title .h1 {
+    font-size: 50px;
+    line-height: 1;
+  }
+}
+.download-section .product-title h5, .download-section .product-title .h5 {
+  font-size: 22px;
+  line-height: 1;
+}
+@media (max-width: 991.98px) {
+  .download-section .product-title h5, .download-section .product-title .h5 {
+    font-size: 20px;
+    line-height: 1;
+  }
+}
+.download-section .product-main-div {
+  background-color: rgba(253, 250, 246, 0.92);
+  padding: 20px 43px 13px 13px;
+  margin-bottom: 21px;
+  border: 1px solid #1B2429;
+}
+@media (max-width: 991.98px) {
+  .download-section .product-main-div {
+    padding: 22px 24px;
+  }
+}
+.download-section .product-main-div h3, .download-section .product-main-div .h3 {
+  font-size: 35px;
+  line-height: 1;
+}
+@media (max-width: 991.98px) {
+  .download-section .product-main-div h3, .download-section .product-main-div .h3 {
+    font-size: 30px;
+    line-height: 1;
+    margin-top: 31px;
+    margin-bottom: 16px;
+  }
+}
+.download-section .product-main-div h4, .download-section .product-main-div .h4 {
+  font-size: 25px;
+  line-height: 1;
+}
+.download-section .product-main-div .product-img {
+  height: 125px;
+  width: 174px;
+}
+@media (max-width: 991.98px) {
+  .download-section .product-main-div .product-img {
+    height: 200px;
+    width: 275px;
+  }
+}
+.download-section .product-main-div .product-content p {
+  font-size: 17px;
+  line-height: 26px;
+  color: rgba(24, 36, 42, 0.75);
+}
+@media (max-width: 991.98px) {
+  .download-section .product-main-div .product-content p {
+    color: #18242A;
+  }
+}
+.download-section .product-main-div .download-btn {
+  height: 48px;
+  width: 48px;
+  border: 1px solid #1B2429;
+  border-radius: 15px;
+}
+@media (max-width: 991.98px) {
+  .download-section .product-main-div .download-btn {
+    display: block;
+    width: 100%;
+    min-height: 58px;
+    margin-top: 31px;
+  }
 }

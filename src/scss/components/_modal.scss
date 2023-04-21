@@ -127,8 +127,6 @@
     }
 }
 
-
-
 .team-modal{
     .modal-dialog{
         max-width: 1000px;
@@ -173,10 +171,6 @@
         z-index: 9;
     }
 }
-
-
-
-
 /* checkout modal */
 .checkout-modal{
     .modal{
@@ -195,3 +189,117 @@
     }
 }
 /* END checkout modal */
+
+
+
+// team-info-modal
+
+
+.enquiry-job-modal{
+    .modal-dialog{
+        max-width:562px;
+        @include media-breakpoint-down(md){
+            margin: 0px;
+        }
+    }
+    .modal-content{
+        height:auto;
+        background-color: $secondary;
+        color:$primary;
+        display: flex;
+        align-items: center;
+        border: none;
+        border-radius: 20px;
+        
+        @include media-breakpoint-down(md){
+            height:100vh;
+            border-radius: 0px;
+            // padding:100px 36px 100px 36px;
+        }
+        .button{
+            display: none;
+        }
+        .btn-close{
+            height:38px;
+            width:38px;
+            border-radius: 50%;
+            border: 1px solid $secondary;
+            z-index: 9;
+            position: absolute;
+            right:12px;
+            top:12px;
+            cursor: pointer;
+            @include media-breakpoint-down(md){
+    
+                position: absolute;
+                top:5%;
+                left: 84%;
+            }
+        }
+        .btn-close{
+            opacity: 1;
+        }
+        .menu-close{
+            height:58px;
+            width:58px;
+        }
+    }
+    .modal-header{
+        display: block;
+        border:none;
+        padding:60px 0px 28px 0px;
+        @include media-breakpoint-down(md){
+            padding:130px 90px 28px 90px;
+        }
+        .modal-title{
+
+            h2{
+                font-size:20px;
+                line-height: 1;
+                span{
+
+                    font-size: 40px;
+                    line-height: 1.1;
+                }
+            }
+        }
+    }
+    .modal-footer{
+        padding:12px 0px 45px 0px;
+        border-top:none;
+        a{
+            &.btn{
+                padding:18px 47px;
+            }
+        }
+    }
+    .form-details{
+        max-width:444px;
+        @include media-breakpoint-down(md){
+            max-width: 302px;
+        }
+        .modal-body{
+            padding:0px 0px 0px 0px;
+            .custom-label{
+                border:1px dashed rgba($primary,50%);
+                display: inline-block;
+                padding: 15px 20px;
+                border-radius: 20px;
+                cursor: pointer;
+                font-size: 12px;
+                line-height: 16px;
+            }
+            .form-control{  
+                border:1px solid #080808;
+                padding:15px 20px;
+                border-radius:20px;
+                font-size: 15px;
+                line-height: 16px;
+                    &::placeholder{
+                        color: $primary;
+                    }
+                }
+        }
+        
+    }
+}

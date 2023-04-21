@@ -57,4 +57,7 @@ a{
 .btn-sm{
     max-width: 196px;
     padding:18px 69px;
+    @include media-breakpoint-down(lg){
+       max-width: 0px;
+    }
 }
