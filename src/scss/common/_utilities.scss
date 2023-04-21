@@ -68,7 +68,9 @@
 .border-bottom{
     border-bottom: 1px solid #18242A !important;
 }
-
+.border-bottom-gray{
+    border-bottom: 1px solid $light-primary !important;
+}
 .bg-green{
     background-color: $green;
 }
