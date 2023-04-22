@@ -3103,9 +3103,7 @@
     }
 }
 
-
 // what-to-next-section
-
 
 .what-to-next-section{
     padding:164px 0px 143px 0px;
@@ -3157,4 +3155,349 @@
             }
     }
    
+}
+
+// awards-card-section
+.awards-card-section{
+    padding:115px 0px 125px 0px;
+    @include media-breakpoint-down(lg){
+        padding:94px 0px 98px 0px; 
+        }
+        .container{
+            @include media-breakpoint-down(lg){
+                padding:0px 36px; 
+                }
+        }
+    .product-title{
+        h1{
+            font-size:60px;
+            line-height:1;
+            @include media-breakpoint-down(lg){
+                font-size: 50px;
+                line-height: 1;
+            }
+        }
+    }
+    .product-main-div{
+        border:1px solid #70707088;
+        padding:32px 28px;
+        @include media-breakpoint-down(lg){
+            padding:30px 11px 31px 19px;
+        }
+        h3{
+            font-size:30px;
+            line-height: 1;
+            text-align: start;
+            @include media-breakpoint-down(lg){
+                margin-top:26px;
+                margin-bottom: 16px;
+                text-align: center;
+            }
+        }
+        h4{
+            font-size: 25px;
+            line-height: 1;
+        }
+        .product-img{
+            height:106px;
+            width: 120px;
+            object-fit: cover;
+            @include media-breakpoint-down(lg){
+                height:68px;
+                width: 78px;
+            }
+        }
+        .round-secondary{
+            height: 154px;
+            width:154px;
+            background-color: $secondary;
+            border-radius: 50%;
+            @include media-breakpoint-down(lg){
+                height:98px;
+                width: 98px;
+            }
+        }
+        .product-content{
+            p{
+                font-size:15px;
+                line-height:22px;
+                color:rgba($secondary, 75%);
+                margin-bottom: 0px;
+            }
+              
+        }
+        
+    }
+}
+
+
+//result-search-section
+.result-search-section{
+    padding:150px 0px 0px 0px;
+  
+    @include media-breakpoint-down(lg){
+        padding:78px 0px 0px;
+    }
+    .container{
+        @include media-breakpoint-down(lg){
+            padding:0px 36px;
+        } 
+    }
+    h5{
+        font-size:17px;
+        line-height:1;
+        color:#B2B2B2;
+    }
+    .product-title{
+        h1{
+            font-size:46px;
+            line-height:1;
+            @include media-breakpoint-down(lg){
+                font-size:40px;
+                line-height: 60px;
+            }
+        }
+       
+    }
+  
+    .product-main-div{
+        padding:54px 0px 77px 0px;
+        border-bottom: 1px solid rgba(#707070,18%);
+        @include media-breakpoint-down(lg){
+            padding:0px;
+            border-bottom:0px;
+            
+        }
+        h3{
+            line-height: 1;
+            font-size:32px;
+            @include media-breakpoint-down(lg){
+                line-height: 40px;
+                margin-top:21px;
+                margin-bottom: 16px;
+            }
+        }
+        h4{
+            font-size: 25px;
+            line-height: 1;
+        }
+        
+        .product-img{
+            height:160px;
+            width: 200px;
+            @include media-breakpoint-down(lg){
+                height:254px;
+                width: 316px;
+            }
+        }
+        .product-content{
+            
+            p{
+                font-size:17px;
+                line-height:26px;
+                color:#B2B2B2;
+                @include media-breakpoint-down(lg){
+                    margin-bottom: 33px;
+                }
+            }
+              
+        }
+        .download-btn{
+            height:48px;
+            width:48px;
+            border:1px solid $light-primary;
+            border-radius: 15px;
+           
+            @include media-breakpoint-down(lg){
+               display: block;
+               width: 100%;
+               min-height:58px;
+               margin-bottom:97px;
+            }
+        }
+    }
+  
+}
+// result-card-section
+.result-card-section{
+    padding:49px 0px 107px 0px;
+    @include media-breakpoint-down(lg){
+        padding:77px 0px 88px 0px;
+        border-top: 1px solid $light-primary;
+        }
+        .container{
+            @include media-breakpoint-down(lg){
+                padding:0px;
+                }
+        }
+   .what-we-offer-title{
+    h2{
+        line-height: 1;
+    }
+}
+    .row{
+    @include media-breakpoint-down(lg){
+        padding:0 36px;
+        }
+    }
+.what-we-offer-card{
+        background-color: $white;
+        border: 1px solid #1B2429;
+        border-radius: 20px;
+        overflow: hidden;
+        .what-we-offer-content{
+            .card-header{
+                padding:22px 30px 20px 26px;
+                @include media-breakpoint-down(lg){
+                padding:9px 12px 9px 18px;
+                }
+                h3{
+                    font-size: 35px;
+                    line-height: 1.1;
+                    margin-bottom: 0px;
+                    text-transform: capitalize;
+                    @include media-breakpoint-down(lg){
+                        font-size: 18px;
+                        line-height: 1;
+                        }
+                }
+            }
+            .card-body{
+                .card-img{
+                    height:172px;
+                    @include media-breakpoint-down(lg){
+                        height:95px;
+                    }
+                }
+            }
+            .card-footer{
+                button{
+                    font-size: 20px;
+                    line-height: 1.6;
+                    padding:14px 0px 12px 0px;
+                    background-color: $primary;
+                    width: 100%;
+                    border-radius: 0px 0px 20px;
+                    &:hover{
+                        background-color: $info;
+                        
+                    }
+                    @include media-breakpoint-down(lg){
+                        font-size: 12px;
+                        line-height: 26px;
+                        padding:10px 0px 10px 0px;
+                    }
+                }
+
+            }
+        }
+    }
+}
+
+// title-goes-section
+.title-goes-section{
+    min-height: 780px;
+    @include media-breakpoint-down(lg){
+        min-height: 644px;
+        }
+        .container{
+            @include media-breakpoint-down(lg){
+                padding:0 36px;
+                }
+        }
+    .hero-content{
+        h1{
+            font-size: 60px;
+            line-height: 62px;
+            @include media-breakpoint-down(lg){
+                font-size: 50px;
+                line-height: 1;
+            }
+            }
+        p{
+            font-size: 22px;
+            line-height: 22px;
+            @include media-breakpoint-down(lg){
+                font-size: 20px;
+                line-height: 26px;
+            }
+        }
+        a{
+            &.btn-md{
+                padding:18px 71px;
+            }
+        }
+    }
+    }
+
+
+
+// text-area-section
+.text-area-section{
+    padding:0px 0px 134px;
+    @include media-breakpoint-down(lg){
+        padding:0px 0px 0px 0px;
+    }
+    .container{
+        @include media-breakpoint-down(lg){
+            padding:0 36px;
+        }  
+    }
+    h2{
+        line-height: 55px;
+    }
+    p{
+        margin-bottom: 46px;
+    }
+    a{
+        &.btn{
+            padding:18px 53px;
+        }
+    }
+    .para-space{
+        padding-top:160px;
+        @include media-breakpoint-down(lg){
+            padding:0px;
+        }
+    }
+    .legacy-system-card{
+        padding:60px;
+        margin-top: -137px;
+        filter:drop-shadow(0px 3px 6px 0px);
+        @include media-breakpoint-down(lg){
+            padding:30px;
+            margin-top: -150px;
+        margin-bottom: 190px;
+        }
+        .markers{
+
+            span{
+                max-width:264px;
+                margin:0px auto;
+                font-size: 17px;
+                line-height: 22px;
+                padding:5px 0px;
+            }
+        }
+        p{
+            font-size: 17px;
+            line-height: 22px;
+        }
+        a{
+            &.btn-md{
+                padding:18px 71px;
+            }
+        }
+    }
+}
+
+// bicycle-img-section
+
+.bicycle-img-section{
+    .bicycle-img{
+        height:718px;
+        @include media-breakpoint-down(sm){
+            height:440px;
+        }
+    }
 }
