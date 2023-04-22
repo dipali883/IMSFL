@@ -19596,8 +19596,18 @@ footer .bottom-footer ul li > a:hover::before {
 .text-area-section h2, .text-area-section .h2 {
   line-height: 55px;
 }
+@media (max-width: 991.98px) {
+  .text-area-section h2, .text-area-section .h2 {
+    padding-right: 35px;
+  }
+}
 .text-area-section p {
   margin-bottom: 46px;
+}
+@media (max-width: 991.98px) {
+  .text-area-section p {
+    margin-bottom: 24px;
+  }
 }
 .text-area-section a.btn {
   padding: 18px 53px;
@@ -19617,17 +19627,19 @@ footer .bottom-footer ul li > a:hover::before {
 }
 @media (max-width: 991.98px) {
   .text-area-section .legacy-system-card {
-    padding: 30px;
+    padding: 57px 21px 42px 30px;
     margin-top: -150px;
     margin-bottom: 190px;
   }
 }
-.text-area-section .legacy-system-card .markers span {
-  max-width: 264px;
-  margin: 0px auto;
-  font-size: 17px;
-  line-height: 22px;
-  padding: 5px 0px;
+.text-area-section .legacy-system-card .markers p {
+  margin-bottom: 23px;
+}
+@media (max-width: 575.98px) {
+  .text-area-section .legacy-system-card .markers svg {
+    height: 26px;
+    width: 26px;
+  }
 }
 .text-area-section .legacy-system-card p {
   font-size: 17px;

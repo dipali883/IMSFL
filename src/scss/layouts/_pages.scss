@@ -3403,7 +3403,7 @@
         .container{
             @include media-breakpoint-down(lg){
                 padding:0 36px;
-                }
+            }
         }
     .hero-content{
         h1{
@@ -3428,6 +3428,7 @@
             }
         }
     }
+   
     }
 
 
@@ -3445,9 +3446,15 @@
     }
     h2{
         line-height: 55px;
+        @include media-breakpoint-down(lg){
+            padding-right:35px;
+        }  
     }
     p{
         margin-bottom: 46px;
+        @include media-breakpoint-down(lg){
+            margin-bottom:24px;
+        }  
     }
     a{
         &.btn{
@@ -3465,19 +3472,21 @@
         margin-top: -137px;
         filter:drop-shadow(0px 3px 6px 0px);
         @include media-breakpoint-down(lg){
-            padding:30px;
+            padding:57px 21px 42px 30px;
             margin-top: -150px;
         margin-bottom: 190px;
         }
         .markers{
 
-            span{
-                max-width:264px;
-                margin:0px auto;
-                font-size: 17px;
-                line-height: 22px;
-                padding:5px 0px;
+           p{
+            margin-bottom: 23px;
+           }
+           svg{
+            @include media-breakpoint-down(sm){
+                height:26px;
+                width:26px;
             }
+           }
         }
         p{
             font-size: 17px;
