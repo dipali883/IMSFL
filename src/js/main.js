@@ -106,6 +106,7 @@ $(document).ready(function(){
     });
     $(".search-close").click(function(){
       $(".global-search form").removeClass("show");
+      $(".input-control").focus();
       $(".menu ul li a, .menu ul li a.btn").removeClass("menu-visible");
 
     });

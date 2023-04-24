@@ -27,7 +27,7 @@ export class App{
       arrows: false,
       infinite: false,
       speed: 400,
-    //   autoplay: true,
+      autoplay: true,
       slidesToShow: 4,
       responsive: [
           {
@@ -66,7 +66,7 @@ export class App{
     arrows: false,
     infinite: true,
     speed: 300,
-    // autoplay: true,
+    autoplay: true,
     slidesToShow: 1,
     responsive: [{
         breakpoint: 767,
@@ -83,7 +83,7 @@ export class App{
     arrows: true,
     infinite: true,
     speed: 300,
-    // autoplay: true,
+    autoplay: true,
     slidesToShow: 1,
   });
 
@@ -95,7 +95,7 @@ export class App{
     arrows: true,
     infinite: true,
     speed: 300,
-    // autoplay: true,
+    autoplay: true,
     slidesToShow: 1,
     responsive: [{
         breakpoint: 767,
