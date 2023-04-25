@@ -214,30 +214,29 @@
         @include media-breakpoint-down(md){
             height:100vh;
             border-radius: 0px;
-            // padding:100px 36px 100px 36px;
-        }
-        .button{
-            display: none;
         }
         .btn-close{
-            height:38px;
-            width:38px;
-            border-radius: 50%;
-            border: 1px solid $secondary;
-            z-index: 9;
+            background: none;
             position: absolute;
             right:12px;
             top:12px;
-            cursor: pointer;
+            
+            
+        }
+        .round-circle{
+
+            height:38px;
+            width:38px;
+            border-radius: 50%;
+            border: 2px solid $secondary;
+            z-index: 9;
+            opacity: 1;
             @include media-breakpoint-down(md){
-    
+
                 position: absolute;
                 top:5%;
                 left: 84%;
             }
-        }
-        .btn-close{
-            opacity: 1;
         }
         .menu-close{
             height:58px;
@@ -283,14 +282,14 @@
             .custom-label{
                 border:1px dashed rgba($primary,50%);
                 display: inline-block;
-                padding: 15px 20px;
+                padding: 14px 20px;
                 border-radius: 20px;
                 cursor: pointer;
                 font-size: 12px;
-                line-height: 16px;
+                line-height: 1;
             }
             .form-control{  
-                border:1px solid #080808;
+                border:1px solid $black;
                 padding:15px 20px;
                 border-radius:20px;
                 font-size: 15px;

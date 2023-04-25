@@ -98,12 +98,12 @@
                 }
             }
         }
+        .floating-img{
+            bottom:-19%;
+            left:56px;
+        }
     }
     
-    .img-alignment{
-        position: absolute;
-        top: -126px;
-    }
 // what-we-offer-section
 .what-we-offer-section{
     padding:144px 0px 114px 0px;
@@ -113,19 +113,14 @@
         .container{
             @include media-breakpoint-down(lg){
                 padding:0px;
-                }
+            }
         }
-   .what-we-offer-title{
-    h2{
-        line-height: 1;
-    }
-}
-    .row{
-    @include media-breakpoint-down(lg){
-        padding:0 36px;
+        .row{
+            @include media-breakpoint-down(lg){
+                padding:0 36px;
+            }
         }
-    }
-.what-we-offer-card{
+    .what-we-offer-card{
         background-color: $white;
         border: 1px solid #1B2429;
         border-radius: 20px;
@@ -147,6 +142,7 @@
                         }
                 }
             }
+            
             .card-body{
                 .card-img{
                     height:172px;
@@ -177,6 +173,11 @@
             }
         }
     }
+    p{
+        @include media-breakpoint-down(lg){ 
+            -webkit-line-clamp: 3;
+        }
+    }
 }
 
 // why-choose-us-section
@@ -187,26 +188,26 @@
         }
     .why-choose-us-title{
         h2{
-            padding-bottom: 103px;
-            line-height: 60px;
+            margin-bottom: 103px;
             @include media-breakpoint-down(lg){
-                padding-bottom:36px;
+                margin-bottom:36px;
                 }
-        }
+            }
 
     }
     .why-choose-body{
         .product-img{
-            margin: 0 auto;
+            height:206px;
+            @include media-breakpoint-down(lg){
+                height:158px;
+            }
         }
     }
     .why-choose-footer{
         h3{
             font-size:35px;
-            line-height: 35px;
             @include media-breakpoint-down(lg){
                 font-size:25px;
-                line-height: 34px;
                 }
         }
     }
@@ -259,11 +260,9 @@
     .articles-title{
         h2{
             font-size: 50px;
-            line-height: 1.5;
             margin-bottom: 57px;
             @include media-breakpoint-down(lg){
                 font-size: 46px;
-            line-height: 50px;
                 }
         }
     }
@@ -271,10 +270,11 @@
         border: 1px solid #1B2429;
         border-radius: 10px;
         overflow: hidden;
-        // @include generate-transition(all, 0.5s, ease);
-        // &:hover{
-        //     transform: translateX(5px);
-        // }
+        &:hover{
+            .round-button{
+                transform: translateX(5px);
+            }
+        }
             .card-body{
                 padding:28px 20px 29px 20px;
                 @include media-breakpoint-down(lg){
@@ -282,11 +282,9 @@
                 }
                 h3{
                     font-size: 22px;
-                    line-height: 28px;
                     margin-bottom: 0px;
                     @include media-breakpoint-down(lg){
                         font-size: 20px;
-                        line-height: 24px;
                         }
                 }
                 p{
@@ -297,27 +295,24 @@
                     @include media-breakpoint-down(lg){
                         font-size: 12px;
                         line-height: 18px;
-                        margin-bottom: 14px;
                         }
                 }
                 button{                   
-                    &.round-button{
+                    .round-button{
     
+                        @include generate-transition(all, 0.5s, ease);
                         height:28px;
                         width:28px;
-                       
+
                         @include media-breakpoint-down(lg){
                            height:22px;
                            width:22px;
+                            svg{
+                                height:12px;
+                                width:6px;
+                           }
                         }
                     }
-                }
-               
-                a{
-                    span{
-                        line-height: 20px;
-                    }
-                   
                 }
             }
             .card-img{
@@ -330,7 +325,7 @@
                     top:28px;
                     left:28px;
                     border-radius: 14px;
-                    line-height: 1.1;
+                    line-height: 1;
                     padding:7px 17px;   
                     font-size: 14px; 
                     &:hover{

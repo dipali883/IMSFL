@@ -11762,21 +11762,24 @@ jquery__WEBPACK_IMPORTED_MODULE_0___default()(".mega-menu-back").click(function 
 
 jquery__WEBPACK_IMPORTED_MODULE_0___default()(document).ready(function () {
   jquery__WEBPACK_IMPORTED_MODULE_0___default()(".global-search-button").click(function () {
-    jquery__WEBPACK_IMPORTED_MODULE_0___default()(".global-search form").addClass("show");
+    jquery__WEBPACK_IMPORTED_MODULE_0___default()(".menu").toggleClass("menu-hidden");
+    jquery__WEBPACK_IMPORTED_MODULE_0___default()(".global-search form").toggleClass("show");
     jquery__WEBPACK_IMPORTED_MODULE_0___default()(".input-control").focus();
-    jquery__WEBPACK_IMPORTED_MODULE_0___default()(".menu ul li a, .menu ul li a.btn").addClass("menu-visible");
+    //   $(".menu ul li a, .menu ul li a.btn").addClass("menu-visible");
   });
-  jquery__WEBPACK_IMPORTED_MODULE_0___default()(".search-close").click(function () {
-    jquery__WEBPACK_IMPORTED_MODULE_0___default()(".global-search form").removeClass("show");
-    jquery__WEBPACK_IMPORTED_MODULE_0___default()(".input-control").focus();
-    jquery__WEBPACK_IMPORTED_MODULE_0___default()(".menu ul li a, .menu ul li a.btn").removeClass("menu-visible");
-  });
+  // $(".search-close").click(function(){
+  //   $(".global-search form").removeClass("show");
+  //   $(".input-control").focus();
+  //   $(".menu ul li a, .menu ul li a.btn").removeClass("menu-visible");
+
+  // });
 });
+
 if (jquery__WEBPACK_IMPORTED_MODULE_0___default()(window).width() <= 768) {
   jquery__WEBPACK_IMPORTED_MODULE_0___default()(".global-search-button").click(function () {
     jquery__WEBPACK_IMPORTED_MODULE_0___default()(".global-search form").addClass("show");
     jquery__WEBPACK_IMPORTED_MODULE_0___default()(".input-control").focus();
-    jquery__WEBPACK_IMPORTED_MODULE_0___default()(".menu ul li a, .menu ul li a.btn, .hide-logo, .hide-bar").addClass("menu-visible");
+    // $(".menu ul li a, .menu ul li a.btn, .hide-logo, .hide-bar").addClass("menu-visible");
     console.log("done");
   });
   jquery__WEBPACK_IMPORTED_MODULE_0___default()(".search-close").click(function () {
@@ -11863,14 +11866,14 @@ var App = /*#__PURE__*/function () {
       $('.logos-slider').slick({
         dots: false,
         arrows: false,
-        infinite: false,
+        infinite: true,
         speed: 400,
         autoplay: true,
-        slidesToShow: 4,
+        slidesToShow: 3,
         responsive: [{
           breakpoint: 1200,
           settings: {
-            slidesToShow: 4,
+            slidesToShow: 3,
             arrows: false
           }
         }, {
@@ -11915,7 +11918,7 @@ var App = /*#__PURE__*/function () {
         arrows: true,
         infinite: true,
         speed: 300,
-        autoplay: true,
+        // autoplay: true,
         slidesToShow: 1
       });
 

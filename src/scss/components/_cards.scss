@@ -108,3 +108,11 @@
     }
 }
 /* END insights card */
+
+.card-hover-2{
+    &:hover{
+        .round-button{
+            transform: translateX(5px);
+        }
+}
+}

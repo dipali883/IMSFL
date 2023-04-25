@@ -25,15 +25,15 @@ export class App{
   $('.logos-slider').slick({
       dots: false,
       arrows: false,
-      infinite: false,
+      infinite: true,
       speed: 400,
       autoplay: true,
-      slidesToShow: 4,
+      slidesToShow: 3,
       responsive: [
           {
               breakpoint: 1200,
               settings: {
-                  slidesToShow: 4,
+                  slidesToShow: 3,
                   arrows: false,
               }
           },
@@ -83,7 +83,7 @@ export class App{
     arrows: true,
     infinite: true,
     speed: 300,
-    autoplay: true,
+    // autoplay: true,
     slidesToShow: 1,
   });
 

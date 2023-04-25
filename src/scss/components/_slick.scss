@@ -323,7 +323,7 @@
 // testimonial-section
 .testimonial-section{
     @include media-breakpoint-down(md){
-        height:100vh;
+        height:128vh;
     }
     .product-img{
         height:714px;
@@ -341,9 +341,6 @@
         @include media-breakpoint-down(md){
            padding:0 36px;
         }
-        h6{
-            line-height: 20px;
-        }
         h2{
             font-size: 40px;
             line-height: 50px;
@@ -354,19 +351,18 @@
         }
         a{
             &.author-name{
-                border-radius: 14px;
                 border: 1px solid $secondary;
-                line-height: 1.1;
+                padding:5px 14px;
             }
         }
     }
     .slick-dots {
         ul{
-            bottom:-46%;
+            bottom:-35%;
             left:-46%;
             @include media-breakpoint-down(xxl){
-                bottom:-41%;
-                left:-44%;
+                bottom:-31%;
+                left:-29%;
             }
         }
         li {
@@ -443,24 +439,30 @@
             .slick-prev {
                 position: absolute;
                 left: 85%;
-                margin-right: 4px;
+                bottom:-117px;
+                @include media-breakpoint-down(lg){
+                    left:75%;
+                }
         
                 &:before {
                     background-image: url("data:image/svg+xml,%0A%3Csvg xmlns='http://www.w3.org/2000/svg' width='8.639' height='14.162' viewBox='0 0 8.639 14.162'%3E%3Cpath id='Path_13296' data-name='Path 13296' d='M7.081,8.639,0,1.558,1.558,0,7.081,5.523,12.6,0l1.558,1.558Z' transform='translate(8.639) rotate(90)' fill='%23b990f6'/%3E%3C/svg%3E%0A");
                     background-size: 6px;
+                    margin: 0px;
                 }
             }
         
             .slick-next {
                 position: absolute;
                 right: 60px;
+                bottom:-117px;
                 @include media-breakpoint-down(lg){
-                    right: 31px;
+                    right: 36px;
                 }
         
                 &:before {
                     background-image: url("data:image/svg+xml,%0A%3Csvg xmlns='http://www.w3.org/2000/svg' width='8.639' height='14.162' viewBox='0 0 8.639 14.162'%3E%3Cpath id='Path_13296' data-name='Path 13296' d='M7.081,8.639,0,1.558,1.558,0,7.081,5.523,12.6,0l1.558,1.558Z' transform='translate(0 14.162) rotate(-90)' fill='%23b990f6'/%3E%3C/svg%3E%0A");
                     background-size: 6px;
+                    margin: 0px;
                 }
             }
         }

@@ -211,7 +211,8 @@ header {
     }
     @include media-breakpoint-up(lg) {
         padding: 78px 0px 107px 0px !important;
-  
+        border-top:1px solid $light-primary;
+        border-bottom: 1px solid $light-primary;
         ul{
             padding-left:0px;
             li{
@@ -508,7 +509,7 @@ header {
     }
     .input-control{
         color: $black;
-        padding: 13px 0px 14px 40px;
+        padding: 18px 0px 14px 40px;
         width: 432px;
         border-radius: 20px;
         font-size: 16px;
@@ -613,4 +614,14 @@ header {
 .menu-visible{
     visibility: hidden;
     opacity: 0;
+}
+
+.menu-hidden{
+    > ul{
+        > li{
+            > a{
+                opacity: 0;
+            }
+        }
+    }
 }
