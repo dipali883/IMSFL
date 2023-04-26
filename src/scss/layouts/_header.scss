@@ -203,11 +203,13 @@ header {
     opacity: 0;
     visibility: hidden;
   
-    @include media-breakpoint-down(lg) {
-        font-size:30px;
-        line-height: 40px;
-        font-weight: 500;
-        color:rgba($primary, 50%);
+   a{
+        @include media-breakpoint-down(lg) {
+            font-size:30px;
+            line-height: 40px;
+            font-weight: 500;
+            color:rgba($primary, 50%);
+        }
     }
     @include media-breakpoint-up(lg) {
         padding: 78px 0px 107px 0px !important;
@@ -509,7 +511,7 @@ header {
     }
     .input-control{
         color: $black;
-        padding: 18px 0px 14px 40px;
+        padding: 13px 0px 14px 40px;
         width: 432px;
         border-radius: 20px;
         font-size: 16px;

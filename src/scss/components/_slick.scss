@@ -361,7 +361,7 @@
             bottom:-35%;
             left:-46%;
             @include media-breakpoint-down(xxl){
-                bottom:-31%;
+                bottom:-23%;
                 left:-29%;
             }
         }
@@ -509,22 +509,15 @@
     @include media-breakpoint-down(lg){
         padding:101px 0px 0px;
     }
-    .container{
-        @include media-breakpoint-down(lg){
-            padding: 0px 36px;
-        }
-    }
+    
     .protect-content{
-        h3{
-            line-height: 55px;
-        }
         p{
             font-size: 18px;
             line-height: 30px;
+            margin-bottom: 0px;
             @include media-breakpoint-down(lg){
                 font-size: 15px;
                 line-height: 28px;
-                color:rgba($primary,75%);
             }
         }
     }
@@ -533,7 +526,11 @@
         position: relative;
         @include media-breakpoint-down(lg){
             height:442px;
-            margin:-36px;
+            // .container{
+            //     @include media-breakpoint-down(lg){
+            //         margin: 0px -36px;
+            //     }
+            // }
         }
     }
     .slick-dots {

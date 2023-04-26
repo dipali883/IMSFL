@@ -27,7 +27,7 @@
             display: block;
             font-size: 16px;
             color:$secondary;
-            line-height: 26px;
+            line-height: 1;
             padding:0px;
         }
         .select2-selection__arrow{
@@ -39,10 +39,9 @@
             top: 25%;
             right: 18px;
             @include generate-transition(all ,0.5s,ease);
-
         
             b{
-                border-width: 0px;
+                border-width: 0px 0px 0px 0px;
                 border-color: #fff transparent transparent transparent;
             }
         }
@@ -50,7 +49,7 @@
             padding:17px 17px;
             font-size: 16px;
             color:$primary;
-            line-height: 16px;
+            line-height: 1;
             font-weight: 700;
         }
         
@@ -61,14 +60,14 @@
                 background-color: $primary !important;
                 color:$secondary;
                 font-size: 16px;
-                line-height: 16px;
+                line-height: 1;
                 padding: 17px 17px;
              }
              &.select2-results__option--highlighted{
                 background-color: $primary !important;
                 color:$secondary;
                 font-size: 16px;
-                line-height: 16px;
+                line-height: 1;
                 font-weight: 700;
                 padding: 17px 17px;
              }
