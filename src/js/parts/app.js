@@ -19,7 +19,7 @@ export class App{
               }
           }
       ]
-  });
+    });
 
   /* related products slider */
   $('.logos-slider').slick({
@@ -77,7 +77,7 @@ export class App{
     }]
   });
 
-//   testimonial slider
+    // testimonial slider
   $('.testimonial-slider').slick({
     dots: true,
     arrows: true,

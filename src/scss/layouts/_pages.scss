@@ -518,7 +518,7 @@
          }
     }
 }
-
+    
 // made-things-easier-section
 .made-things-easier-section{
     .product-img{
@@ -2874,10 +2874,10 @@
                 -webkit-box-orient: vertical;
                 -webkit-line-clamp: 4;
               }
-              &.open{
-                -webkit-line-clamp: initial;
-              }
-              
+            &.open{
+            -webkit-line-clamp: initial;
+            }
+            
         }
     }
     div{

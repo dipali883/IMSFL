@@ -101,7 +101,7 @@ $(document).ready(function(){
     $(".global-search-button").click(function(){
         $(".menu").toggleClass("menu-hidden");
         $(".global-search form").toggleClass("show");
-      $(".input-control").focus();
+        $(".input-control").focus();
     //   $(".menu ul li a, .menu ul li a.btn").addClass("menu-visible");
 
     });
